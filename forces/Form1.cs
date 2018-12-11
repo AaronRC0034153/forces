@@ -72,7 +72,12 @@ namespace forces
         {
             try
             {
-
+                double f = double.Parse(box1.Text);
+                double ang = double.Parse(box2.Text);
+                double Fx = cos(ang) * f;
+                label2.Text = Fx.ToString();
+                double Fy = sin(ang) * f;
+                label1.Text = Fy.ToString();
             }
             catch
             {
