@@ -29,11 +29,9 @@
         private void InitializeComponent()
         {
             this.box2 = new System.Windows.Forms.TextBox();
-            this.box3 = new System.Windows.Forms.TextBox();
             this.box1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -51,13 +49,6 @@
             this.box2.Name = "box2";
             this.box2.Size = new System.Drawing.Size(52, 20);
             this.box2.TabIndex = 1;
-            // 
-            // box3
-            // 
-            this.box3.Location = new System.Drawing.Point(591, 423);
-            this.box3.Name = "box3";
-            this.box3.Size = new System.Drawing.Size(100, 20);
-            this.box3.TabIndex = 2;
             // 
             // box1
             // 
@@ -83,15 +74,6 @@
             this.label2.Size = new System.Drawing.Size(13, 13);
             this.label2.TabIndex = 8;
             this.label2.Text = "?";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(752, 430);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "label3";
             // 
             // pictureBox1
             // 
@@ -177,11 +159,9 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.box1);
-            this.Controls.Add(this.box3);
             this.Controls.Add(this.box2);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
@@ -195,11 +175,9 @@
         #endregion
 
         private System.Windows.Forms.TextBox box2;
-        private System.Windows.Forms.TextBox box3;
         private System.Windows.Forms.TextBox box1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
