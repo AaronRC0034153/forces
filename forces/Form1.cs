@@ -67,5 +67,17 @@ namespace forces
         {
             return Math.Atan(n3) * 180.0 / Math.PI;
         }
+
+        private void calc1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+            }
+            catch
+            {
+                MessageBox.Show("Enter 2 Numbers");
+            }
+        }
     }
 }
